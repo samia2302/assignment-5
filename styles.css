@@ -1,0 +1,49 @@
+body {
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.devboard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 5px 20px;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+.img1 {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.board {
+    font-weight: bold;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.inp1 {
+    color: blue;
+}
+
+.img2 {
+    width: 20px;
+    height: 20px;
+}
