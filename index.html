@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DevBoard</title>
+    <title>Tasks</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -22,7 +22,7 @@
         </div>
     </div>
 
-    <!-- next part -->
+    <!-- main -->
 
     <div class="container">
         <!-- Left  -->
@@ -30,21 +30,22 @@
             <!-- Top -->
 
             <div class="top">
+
                 <!-- Task Assigned -->
                 <div class="task-assigned">
                     <div class="task-head">
                         <div class="round"> <img src="Images/checkbox.png" alt=""> </div>
-                        <span class="ttask">Task Assigned
-                            <h2>6</h2>
-                        </span>
+                        <h3 class="ttask">Task Assigned
+                            <span>6</span>
+                        </h3>
                     </div>
                     
                 </div>
             
                 <!-- Discover Something New -->
-                <div class="discover">
+                <div class="discover" id="discoverBtn">
                     <img src="Images/board.png">
-                    <span>Discover Something New Today!</span>
+                    <span class="something">Discover Something New Today!</span>
                 </div>
             
                 <!-- Date -->
@@ -56,62 +57,62 @@
             
 
             <!-- Grid -->
-            <div class="task-grid">
-                <div class="task-card">
+            <div class="grid">
+                <div class="card">
                     <h4 class="shop">Shop Ease</h4>
                     <h3>Fix Mobile Button Issue</h3>
                     <div class="shopping"><p>Shopping is an activity in which a customer buys things for themselves</p></div>
-                    <div class="task-foot">
+                    <div class="foot">
                         <p class="deadline">Deadline <br> <span>21 March 2025</span></p>
                         <span class="completed">Completed</span>
                     </div>
                 </div>
 
-                <div class="task-card">
-                    <h4 class="shop">Soft Pay</h4>
-                    <h3>Add Pay Success Modal</h3>
+                <div class="card">
+                    <h4 class="shop shop2">SwiftPay</h4>
+                    <h3>Optimize New Thing</h3>
                     <div class="shopping"><p>Shopping is an activity in which a customer buys things for themselves</p></div>
-                    <div class="task-foot">
+                    <div class="foot">
                         <p class="deadline">Deadline <br> <span>25 March 2025</span></p>
                         <span class="completed">Completed</span>
                     </div>
                 </div>
 
-                <div class="task-card">
-                    <h4 class="shop">Meta</h4>
-                    <h3>Add new reaction ✌</h3>
+                <div class="card">
+                    <h4 class="shop shop3">Meta</h4>
+                    <h3>Add New Something</h3>
                     <div class="shopping"><p>Shopping is an activity in which a customer buys things for themselves</p></div>
-                    <div class="task-foot">
+                    <div class="foot">
                         <p class="deadline">Deadline <br> <span>31 March 2025</span></p>
                         <span class="completed">Completed</span>
                     </div>
                 </div>
 
-                <div class="task-card">
-                    <h4 class="shop">Programming</h4>
-                    <h3>Fix Video Loading Issue</h3>
+                <div class="card">
+                    <h4 class="shop shop4">CloudSync</h4>
+                    <h3>Add new reaction</h3>
                     <div class="shopping"><p>Shopping is an activity in which a customer buys things for themselves</p></div>
-                    <div class="task-foot">
+                    <div class="foot">
                         <p class="deadline">Deadline <br> <span>21 March 2025</span></p>
                         <span class="completed">Completed</span>
                     </div>
                 </div>
 
-                <div class="task-card">
-                    <h4 class="shop">Google LLC</h4>
+                <div class="card">
+                    <h4 class="shop shop5">Google LLC</h4>
                     <h3>Integrate AI Search</h3>
                     <div class="shopping"><p>Shopping is an activity in which a customer buys things for themselves</p></div>
-                    <div class="task-foot">
+                    <div class="foot">
                         <p class="deadline">Deadline <br> <span>01 March 2025</span></p>
                         <span class="completed">Completed</span>
                     </div>
                 </div>
-                <div class="task-card">
-                    <h4 class="shop">Google LLC</h4>
-                    <h3>Integrate AI Search</h3>
+                <div class="card">
+                    <h4 class="shop">Glassdoor</h4>
+                    <h3>Improve Job Searching</h3>
                     <div class="shopping"><p>Shopping is an activity in which a customer buys things for themselves</p></div>
-                    <div class="task-foot">
-                        <p class="deadline">Deadline <br> <span>01 March 2025</span></p>
+                    <div class="foot">
+                        <p class="deadline">Deadline <br> <span>21 March 2025</span></p>
                         <span class="completed">Completed</span>
                     </div>
                 </div>
@@ -131,6 +132,6 @@
     </div>
 
 
-
+<script src="script.js"></script>
 </body>
 </html>

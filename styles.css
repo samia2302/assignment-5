@@ -1,5 +1,5 @@
 body {
-    background-color: #f5f5f5;
+    background-color: rgba(135, 207, 235, 0.137);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -50,16 +50,16 @@ body {
 }
 
 .half-round{
-        background-color: rgb(217, 228, 232);
+        background-color: rgba(135, 207, 235, 0.137);
         height: 40px;
         width: 60px;
-        border-radius: 40%;
+        border-radius: 43%;
         display: flex;
         justify-content: center;
         align-items: center;
 }
 .roundy{
-    background-color: rgb(217, 228, 232);
+    background-color: rgba(135, 207, 235, 0.137);
         height: 40px;
         width: 40px;
         border-radius: 50%;
@@ -68,65 +68,39 @@ body {
         align-items: center;
 }
 
-/* next part */
-
-
-
+/* main */
 
 
 .container {
     display: grid;
     grid-template-columns: 2fr 0.8fr;
     gap: 20px;
-    width: 90%;
-    max-width: 1200px;
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin-top: 15px;
+    width: 83%; 
+    padding: 20px;   
 }
 
-/* Left Section */
+/* Left */
 .task-container {
     display: flex;
     flex-direction: column;
     gap: 20px;
-}
-
-/* Top Cards */
-.top-cards {
-    display: flex;
-    gap: 10px;
-}
-
-.card {
-    flex: 1;
+    background-color: white;
     padding: 15px;
-    background: #fafafa;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    display: flex;
-    align-items: center;
-    gap: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.card img {
-    width: 24px;
-    height: 24px;
-}
-
-/* Top Grid */
+/* Top */
 .top {
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr; /* Task Assigned & Date ছোট, Discover বড় */
+    grid-template-columns: 1fr 2fr 1fr;
     gap: 10px;
     margin-bottom: 20px;
 }
 
 /* Task Assigned */
 .task-assigned {
-    background: #f5f5f5;
+    background: rgba(135, 207, 235, 0.137);
     padding: 15px;
     border-radius: 10px;
     gap: 5px;
@@ -137,9 +111,12 @@ body {
     align-items: center;
 }
 
+.task-head span{
+font-size: 28px;
+}
+
 .ttask{
-    margin-left: 10px;
-    margin-top: 30px;
+    margin-left: 10px;   
 }
 
 .round{
@@ -154,7 +131,7 @@ body {
 
 /* Discover Something New */
 .discover {
-    background: #e0ebff;
+    background: rgba(28, 28, 250, 0.842);
     padding: 15px;
     border-radius: 10px;
     display: flex;
@@ -162,10 +139,15 @@ body {
     gap: 10px;
 }
 
+.something{
+   color: white; 
+   font-size: large;
+}
+
 
 /* Date */
 .date {
-    background: #f5f5f5;
+    background: rgba(135, 207, 235, 0.137);
     padding: 15px;
     border-radius: 10px;
     display: flex;
@@ -175,7 +157,6 @@ body {
 
 /* Icons */
 .task-header img,
-.discover img,
 .date img {
     width: 24px;
     height: 24px;
@@ -183,20 +164,20 @@ body {
 
 
 /* Grid */
-.task-grid {
+.grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
 
-.task-card {
-    background: #fafafa;
+.card {
+    background: rgba(135, 207, 235, 0.137);
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.task-foot {
+.foot {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -224,13 +205,26 @@ body {
 
 .shop{
     background-color: white;
-    width: 50%;
+    width: 73px;
     padding: 5px;
     border-radius: 5px;
     margin-bottom: 8px;
     color: gray;
     font-weight: 600;
 }
+.shop2{
+      width: 60px;
+}
+.shop3{
+    width: 38px;
+}
+.shop4{
+    width: 75px;
+}
+.shop5{
+    width: 85px;
+}
+
 .shopping{
     background-color: white;
     padding: 10px;
@@ -239,7 +233,7 @@ body {
     color: gray;
 }
 
-/* Right */
+/* Activity Log */
 
 .clear-history {
     background: blue;
@@ -250,9 +244,8 @@ body {
     margin-top: 10px;
 }
 
-/* Activity Log Box */
 .activity-log {
-    background: #fafafa;
+    background: white;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -262,7 +255,6 @@ body {
     text-align: center;
 }
 
-/* Activity Log Head */
 .activity-head {
     display: flex;
     align-items: center;
@@ -270,10 +262,6 @@ body {
     justify-content: center;
 }
 
-/* Activity Icon */
-.activity-header img {
-    width: 24px;
-    height: 24px;
-}
+
 
 

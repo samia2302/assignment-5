@@ -1,0 +1,72 @@
+body {
+    background: #f5f0f0;
+}
+
+/* index1 Container */
+.index1-container {
+    width: 80%;
+    margin: auto;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);;
+    border-radius: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+.imglogo{
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+
+.logo p {
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.board {
+    color: black;
+    font-weight: bold;
+}
+
+/* Blogs */
+.blogs {
+    font-size: 28px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.question {
+    background: white;
+    padding: 15px;
+    margin: 10px 0;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+/* Dashed */
+.dashed {
+    border: none;
+    border-top: 2px dashed rgb(172, 166, 166);
+    margin-top: 10px;
+}
+
+/* Back to desk */
+button {
+    background: blue;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}

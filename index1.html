@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task2</title>
+    <link rel="stylesheet" href="index1.css">
+</head>
+<body>
+
+    <div class="index1-container">
+        <header class="header">
+            <div class="logo">
+                <img src="Images/logo.png" class="imglogo">
+                <p>Dev<span class="board">Board</span></p>
+            </div>
+            <button id="backToDesk">Back to Desk</button>
+        </header>
+
+        <h1 class="blogs">Blogs</h1>
+
+        <div>
+            <div class="question">
+                <h3>Question-1: What are the different ways to select an element in the DOM?</h3>
+                <hr class="dashed">
+                <p>Ans: getElementById(),getElementsByClassName(),getElementsByTagName(),querySelector(),querySelectorAll().</p>
+            </div>
+
+            <div class="question">
+                <h3>Question-2: What is the difference between innerHTML, innerText, and textContent?</h3>
+                <hr class="dashed">
+                <p>Ans: innerHTML - gets/sets the html content including the tags inside an element, innerText - gets/sets only the visible text inside an element, textContent - gets/sets all the text including hidden ones of an element but doesn't include html tags. </p>
+                
+            </div>
+
+            <div class="question">
+                <h3>Question-3: What is event delegation in the DOM?</h3>
+                <hr class="dashed">
+                <p>Ans: It is a technique where it adds a single event listener to a parent element instead of adding event listener to multiple child elements.</p>
+                
+            </div>
+
+            <div class="question">
+                <h3>Question-4: What is event bubbling in the DOM?</h3>
+                <hr class="dashed">
+                <p>Ans: It means if you click on a child element,the event will first be handled by the child, then by its parent and so on,up to the root of the document.</p>
+                
+            </div>
+            <div class="question">
+                <h3>Question-5: How do you create,add and remove elements using JavaScript?</h3>
+                <hr class="dashed">
+                <p>Ans: To create - createElement(), To add - appendChild(), To remove - removeChild().</p>
+                
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById("backToDesk").addEventListener("click", function () {
+            window.location.href = "index.html"; 
+        });
+    </script>
+
+</body>
+</html>
